@@ -1,3 +1,6 @@
+    <!-- EL-FANDER NOTE#72 -->
+
+
 <?xml version="1.0" ?>
 <sdf version="1.5">
   <world name="default">
@@ -29,6 +32,7 @@
         <iyz>0</iyz>
       </inertia>
     </inertial>
+    <!-- EL-FANDER NOTE#72 -->
 
       <!-- ini adalah design cylinder -->
       
@@ -54,6 +58,7 @@
       </geometry>
     </visual>
   </link>
+    <!-- EL-FANDER NOTE#72 -->
 
   <!-- Give the base link a unique name -->
   <link name="top">
@@ -121,6 +126,7 @@
        <iyz>0</iyz>
      </inertia>
    </inertial>
+    <!-- EL-FANDER NOTE#72 -->
 
     <!-- Vertically offset the top cylinder by the length of the bottom
         cylinder and half the length of this cylinder. -->
@@ -165,6 +171,7 @@
 
     <!-- Limit refers to the range of motion of the joint -->
     <limit>
+    <!-- EL-FANDER NOTE#72 -->
 
       <!-- Use a very large number to indicate a continuous revolution -->
       <lower>-10000000000000000</lower>
